@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/path_text_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="18sp"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/back_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Previous Folder"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/files_recycler_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>
